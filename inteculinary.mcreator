@@ -3,19 +3,36 @@
     {
       "name": "IntegratedCulinaryItems",
       "type": "tab",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "integrated_culinary_items",
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "WoodenSkewer",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_skewer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/inteculinary/models/item/wooden_skewer.json",
+          "src/main/java/net/mcreator/inteculinary/item/WoodenSkewerItem.java"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.inteculinary.integrated_culinary_items": "Integrated Culinary Items"
+      "item_group.inteculinary.integrated_culinary_items": "Integrated Culinary Items",
+      "item.inteculinary.wooden_skewer": "Wooden Skewer"
     }
   },
   "foldersRoot": {
@@ -31,6 +48,10 @@
       },
       {
         "name": "Decorative Blocks",
+        "children": []
+      },
+      {
+        "name": "Tools",
         "children": []
       }
     ]

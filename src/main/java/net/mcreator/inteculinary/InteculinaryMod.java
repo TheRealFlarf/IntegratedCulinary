@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.inteculinary.init.InteculinaryModTabs;
+import net.mcreator.inteculinary.init.InteculinaryModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,10 @@ public class InteculinaryMod {
 	public InteculinaryMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		InteculinaryModItems.REGISTRY.register(bus);
+
+		InteculinaryModTabs.REGISTRY.register(bus);
 
 	}
 
