@@ -1,4 +1,8 @@
 {
+  "item.inteculinary.empty_glass_jar": "Empty Glass Jar",
   "item_group.inteculinary.integrated_culinary_items": "Integrated Culinary Items",
-  "item.inteculinary.wooden_skewer": "Wooden Skewer"
+  "item.inteculinary.wooden_skewer": "Wooden Skewer",
+  "item.inteculinary.sugar_ingot": "Sugar Ingot",
+  "item.inteculinary.skewered_apple": "Skewered Apple",
+  "item.inteculinary.baked_apple_on_stick": "Baked Apple on a Stick"
 }

@@ -20,5 +20,9 @@ public class InteculinaryModTabs {
 	public static final RegistryObject<CreativeModeTab> INTEGRATED_CULINARY_ITEMS = REGISTRY.register("integrated_culinary_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.inteculinary.integrated_culinary_items")).icon(() -> new ItemStack(Items.BREAD)).displayItems((parameters, tabData) -> {
 				tabData.accept(InteculinaryModItems.WOODEN_SKEWER.get());
+				tabData.accept(InteculinaryModItems.EMPTY_GLASS_JAR.get());
+				tabData.accept(InteculinaryModItems.SUGAR_INGOT.get());
+				tabData.accept(InteculinaryModItems.SKEWERED_APPLE.get());
+				tabData.accept(InteculinaryModItems.BAKED_APPLE_ON_STICK.get());
 			}).withSearchBar().build());
 }

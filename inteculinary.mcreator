@@ -25,14 +25,92 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "EmptyGlassJar",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_glass_jar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/inteculinary/models/item/empty_glass_jar.json",
+          "src/main/java/net/mcreator/inteculinary/item/EmptyGlassJarItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SugarIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/inteculinary/item/SugarIngotItem.java",
+          "src/main/resources/assets/inteculinary/models/item/sugar_ingot.json"
+        ]
+      },
+      "path": "~/Ingredients"
+    },
+    {
+      "name": "SkeweredApple",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/inteculinary/models/item/skewered_apple.json",
+          "src/main/java/net/mcreator/inteculinary/item/SkeweredAppleItem.java"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "BakedAppleOnStick",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_apple_on_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/inteculinary/item/BakedAppleOnStickItem.java",
+          "src/main/resources/assets/inteculinary/models/item/baked_apple_on_stick.json"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "BakedAppleOnStickCamping",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_apple_on_stick_camping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/inteculinary/recipes/baked_apple_on_stick_camping.json"
+        ]
+      },
+      "path": "~/Food Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.inteculinary.empty_glass_jar": "Empty Glass Jar",
       "item_group.inteculinary.integrated_culinary_items": "Integrated Culinary Items",
-      "item.inteculinary.wooden_skewer": "Wooden Skewer"
+      "item.inteculinary.wooden_skewer": "Wooden Skewer",
+      "item.inteculinary.sugar_ingot": "Sugar Ingot",
+      "item.inteculinary.skewered_apple": "Skewered Apple",
+      "item.inteculinary.baked_apple_on_stick": "Baked Apple on a Stick"
     }
   },
   "foldersRoot": {
