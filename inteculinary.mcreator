@@ -99,6 +99,150 @@
         ]
       },
       "path": "~/Food Items"
+    },
+    {
+      "name": "BakedApple",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/inteculinary/models/item/baked_apple.json",
+          "src/main/java/net/mcreator/inteculinary/item/BakedAppleItem.java"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "BakedAppleCamping",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_apple_camping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/inteculinary/recipes/baked_apple_camping.json"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "MelmersClassGlue",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melmers_class_glue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/inteculinary/models/item/melmers_class_glue.json",
+          "src/main/java/net/mcreator/inteculinary/item/MelmersClassGlueItem.java"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "MelmersGlueCraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melmers_glue_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/inteculinary/recipes/melmers_glue_craft.json"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "WaterContainer",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_container",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/inteculinary/item/WaterContainerItem.java",
+          "src/main/resources/assets/inteculinary/models/item/water_container.json"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "MilkContainer",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_container",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/inteculinary/models/item/milk_container.json",
+          "src/main/java/net/mcreator/inteculinary/item/MilkContainerItem.java"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "WaterContainerCraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_container_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/inteculinary/recipes/water_container_craft.json"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "MilkContainerCraft",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_container_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/inteculinary/recipes/milk_container_craft.json"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "WaterContainerMultiply",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_container_multiply",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/inteculinary/recipes/water_container_multiply.json"
+        ]
+      },
+      "path": "~/Food Items"
+    },
+    {
+      "name": "SaltSmelting",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "salt_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/inteculinary/recipes/salt_smelting.json"
+        ]
+      },
+      "path": "~/Food Items"
     }
   ],
   "variable_elements": [],
@@ -108,7 +252,11 @@
       "item.inteculinary.empty_glass_jar": "Empty Glass Jar",
       "item_group.inteculinary.integrated_culinary_items": "Integrated Culinary Items",
       "item.inteculinary.wooden_skewer": "Wooden Skewer",
+      "item.inteculinary.baked_apple": "Baked Apple",
+      "item.inteculinary.milk_container": "Milk Container",
       "item.inteculinary.sugar_ingot": "Sugar Ingot",
+      "item.inteculinary.melmers_class_glue": "Melmer\u0027s Class Glue",
+      "item.inteculinary.water_container": "Water Container",
       "item.inteculinary.skewered_apple": "Skewered Apple",
       "item.inteculinary.baked_apple_on_stick": "Baked Apple on a Stick"
     }

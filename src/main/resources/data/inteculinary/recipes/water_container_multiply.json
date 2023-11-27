@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "inteculinary:water_container"
+    }
+  },
+  "result": {
+    "item": "inteculinary:water_container",
+    "count": 8
+  }
+}

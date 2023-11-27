@@ -24,5 +24,9 @@ public class InteculinaryModTabs {
 				tabData.accept(InteculinaryModItems.SUGAR_INGOT.get());
 				tabData.accept(InteculinaryModItems.SKEWERED_APPLE.get());
 				tabData.accept(InteculinaryModItems.BAKED_APPLE_ON_STICK.get());
+				tabData.accept(InteculinaryModItems.BAKED_APPLE.get());
+				tabData.accept(InteculinaryModItems.MELMERS_CLASS_GLUE.get());
+				tabData.accept(InteculinaryModItems.WATER_CONTAINER.get());
+				tabData.accept(InteculinaryModItems.MILK_CONTAINER.get());
 			}).withSearchBar().build());
 }
